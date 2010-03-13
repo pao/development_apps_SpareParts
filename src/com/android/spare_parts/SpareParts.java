@@ -1,6 +1,7 @@
 /* //device/apps/Settings/src/com/android/settings/Keyguard.java
 **
-** Copyright 2006, The Android Open Source Project
+** Copyright 2010 enomther
+** Portions Copyright 2006, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License"); 
 ** you may not use this file except in compliance with the License. 
@@ -13,6 +14,11 @@
 ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
 ** See the License for the specific language governing permissions and 
 ** limitations under the License.
+**
+** Portions Copyright 2010 Patrick O'Leary
+** Portions of this file are licensed under the terms of the
+** Common Development and Distribution License, Version 1.0 only.
+** See http://opensource.org/licenses/cddl1.php for details.
 */
 
 package com.android.spare_parts;
@@ -808,6 +814,12 @@ public class SpareParts extends PreferenceActivity
     }
 
 
+    /* Copyright 2010 Patrick O'Leary.  All rights reserved.
+     * The contents of this class are subject to the terms of the
+     * Common Development and Distribution License, Version 1.0 only.
+     * See the file CDDL.txt in this distribution or
+     * http://opensource.org/licenses/cddl1.php for details.
+     */
     /**
     * SuServer (Runs commands via the 'su' <superuser> app)
     * 
